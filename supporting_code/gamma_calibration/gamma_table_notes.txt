@@ -1,0 +1,7 @@
+UCI_calibration_04232021.mat holds the results of gamma calibration testing at UCI.
+
+gammaTableUCI was created by tiling gammaTable1 from UCI_calibration_04232021.mat (a 256x1 vector) 3 times over (creating a 256x3 matrix), thus effectively using the same gamma calibration across all RGB channels.
+
+As of 2022-02-18 calibration has not been performed at BU. For now gammaTableBU is set to gammaTableDefault, where gammaTableDefault is a linear table, i.e.
+
+gammaTableDefault = [repmat( linspace(0,1,256)', 1, 3 )];
