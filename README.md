@@ -31,6 +31,10 @@ For each experiment folder, the files a reader is most likely to want:
 ---
 
 ### Running an experiment
+
+#### Dependencies
+- [Psychtoolbox-3](http://psychtoolbox.org/) 
+
 #### Screen calibration (texture experiments only)
 Texture experiments require a one-time stimulus calibration that depends on the
 display size and viewing distance of the testing setup. This must be done
@@ -71,7 +75,3 @@ If you use this code, please cite the paper:
   url     = {https://www.biorxiv.org/content/10.1101/2025.07.03.661972v2}
 }
 ```
-
-### Contact
-
-<karenjtian@gmail.com>
