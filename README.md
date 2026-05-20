@@ -1,4 +1,6 @@
 
+[![DOI](https://zenodo.org/badge/1011425445.svg)](https://doi.org/10.5281/zenodo.20313022)
+
 ## Experimental (stimulus presentation) code accompanying the project
 
 > **When awareness outstrips performance: critical tests of subjective
