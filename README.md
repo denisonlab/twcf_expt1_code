@@ -13,12 +13,16 @@ separately.
 
 ```
 ├── README.md
-├── cue_gab_det/                 # Exp 1: gabor detection
-│   ├── expt.m                   # ← main entry point (run this)
-│   ├── expt_param.m             # stimulus & timing parameters
-├── cue_gab_dis/                 # Exp 2: gabor discrimination
-├── cue_tex_det/                 # Exp 3: texture detection
-├── cue_tex_dis/                 # Exp 4: texture discrimination
+├── experiments
+│   ├── cue_gab_det/             # Exp 1: gabor detection
+│   │   ├── expt.m               # ← main entry point (run this)
+│   │   ├── expt_param.m         # stimulus & timing parameters
+│   │   ├── manual/              # explanation of variables
+│   │   │   ├── explanation_of_variables.xlsx             # explanation of variables
+│   │   │   ├── twcf_cue_gab_det_param_table.xlsx         # parameter settings used at BU and UCI
+│   ├── cue_gab_dis/             # Exp 2: gabor discrimination
+│   ├── cue_tex_det/             # Exp 3: texture detection
+│   ├── cue_tex_dis/             # Exp 4: texture discrimination
 ├── supporting_code/             # shared helpers (eyetracking, gamma calibration, stimulus calibration)
 ```
 
