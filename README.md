@@ -23,7 +23,7 @@ separately.
 │   ├── cue_gab_dis/             # Exp 2: gabor discrimination
 │   ├── cue_tex_det/             # Exp 3: texture detection
 │   ├── cue_tex_dis/             # Exp 4: texture discrimination
-├── supporting_code/             # shared helpers (eyetracking, gamma calibration, stimulus calibration)
+└── supporting_code/             # shared helpers (eyetracking, gamma calibration, stimulus calibration)
 ```
 
 ### Relevant files (per experiment)
